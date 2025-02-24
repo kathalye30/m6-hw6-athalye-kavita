@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
 }
 
-main, nav {
+main, nav, aside {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 12px;
