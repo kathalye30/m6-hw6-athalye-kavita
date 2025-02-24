@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(/m5-hw5-athalye-kavita/background.png);
+}
+
+header {
+    background: #333;
+    padding: 40px 0;
+    border-bottom: 3px solid rgb(234, 100, 122);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+    color: white;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 140%;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main {
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+.main-content {
+    margin: 40px auto;
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+aside img {
+    box-shadow: 3px 3px 6px black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #333;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 24px;
+}
