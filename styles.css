@@ -11,7 +11,7 @@ h1 {
 body {
     margin: 0;
     min-height: 100vh;
-    display: flex;
+    display: flex 2;
     flex-direction: column;
 }
 
@@ -20,6 +20,7 @@ main, nav {
     margin: 0 auto;
     padding: 0 12px;
 }
+
 
 body {
     background-image: url(/m6-hw6-athalye-kavita/background.png);
@@ -40,14 +41,10 @@ nav {
     display: flex;
 }
 
-.Name {
-    margin-right: auto;
-}
 nav a {
     color: white;
     font-size: 24px;
-    margin: 0 4px;
-    text-decoration: none;
+    margin-right: auto;
 }
 
 .headshot {
@@ -55,12 +52,7 @@ nav a {
     margin: 0 20px 10px 0;
 }
 
-aside {
-    display: flex;
-}
-
 aside img {
-    flex-direction: column;
     box-shadow: 3px 3px 6px black;
 }
 
