@@ -18,6 +18,7 @@ body {
 header, footer {
     background: #333;
     padding: 24px 0;
+    color: white;
 }
 
 nav {
@@ -27,17 +28,13 @@ nav {
 nav a {
     color: white;
     font-size: 24px;
-    margin-right: 20px;
+    margin: 0 4px;
     text-decoration: none;
 }
 
 .headshot {
     float: left;
     margin: 0 20px 10px 0;
-}
-
-aside {
-    display: flex;
 }
 
 aside img {
