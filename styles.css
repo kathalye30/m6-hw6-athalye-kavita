@@ -40,6 +40,9 @@ nav {
     display: flex;
 }
 
+.Name {
+    margin-right: auto;
+}
 nav a {
     color: white;
     font-size: 24px;
@@ -52,7 +55,12 @@ nav a {
     margin: 0 20px 10px 0;
 }
 
+aside {
+    display: flex;
+}
+
 aside img {
+    flex-direction: column;
     box-shadow: 3px 3px 6px black;
 }
 
