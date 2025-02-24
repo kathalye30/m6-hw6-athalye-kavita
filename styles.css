@@ -24,14 +24,15 @@ nav {
     display: flex;
 }
 
-.link {
-    margin: 0 4px;
-}
-
 
 nav a {
     color: white;
     font-size: 24px;
+    margin-right: auto;
+}
+
+.link {
+    margin-right: 0 4px;
 }
 
 
